@@ -11,7 +11,7 @@ Traffic Sign Classification using CNN
 ## Introduction
 <b>Motivation</b> - To display my interest in image recognition, especially for practical applications of machine learning using realistic data. 
 
-A focus of this project was to create a versatile model, using a CNN, with the ability to accurately classify traffic signs from small images in low lighting (at night, obscured in shadow) and low quality (blurred, low resolution).
+A focus of this project is to create a versatile model, using a CNN, with the ability to accurately classify traffic signs from small images in low lighting (at night, obscured in shadow) and low quality (blurred, low resolution).
 Visual comparison of different models with various filter dimensions on training and validation sets to determine best model.
 
 ## Dataset
