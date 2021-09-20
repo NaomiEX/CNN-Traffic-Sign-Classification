@@ -22,18 +22,16 @@ The dataset consists of:
 * Images are of size 32x32
 * 43 different types of traffic signs
 
-## Results
-### SVM model (Confusion Matrix)
-![SVM Confusion Matrix](./Results/svm_confusion_matrix.JPG)
-### SVM model (Quadratic Kappa Score)
-![SVM Quadratic Kappa Score](./Results/svm_qwk.JPG)
-### RFC model (Confusion Matrix)
-Note: Performed oversampling, thus total number of samples is greater in comparison to the SVM Confusion Matrix, the goal here is to correctly classify infrequent scores (1 and 6)
+### Visualization of data
+Notice that many of the images displaying the traffic signs are blurry, partially obscured, and dimly-lit. These features permeate through the many images in this dataset and is the main reason I chose this particular dataset - it is very realistic and thus the resulting model trained on this data is very applicable in real-world scenarios.
 
-![RFC Confusion Matrix](./Results/rfc_confusion_matrix.JPG)
-### RFC model (Quadratic Kappa Score)
-Note: Much better QWK score in comparison to the SVM model!
-![RFC Quadratic Kappa Score](./Results/rfc_qwk.JPG)
+## Results
+### Training and Validation Accuracy comparison between different models
+![SVM Confusion Matrix](./Results/svm_confusion_matrix.JPG)
+### Predictions with Best Model (images from test set)
+The following shows the predicted label by the best model (chosen from the comparison above), as well as the true label below it. As you can see, the predictions are all correct for this set of images! This result matches the high accuracy that was observed for the training and validation sets (see above graph)
+![SVM Quadratic Kappa Score](./Results/svm_qwk.JPG)
+
 
 
 ## Libraries
