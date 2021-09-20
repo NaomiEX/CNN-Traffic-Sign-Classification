@@ -8,7 +8,7 @@ Traffic Sign Classification using CNN
 * [Libraries](#libraries)
 
 ## About
-<b>Motivation</b> - To display my interest in image recognition, especially for practical applications of machine learning using realistic data. This project's application of Computer Vision is also tied to machine learning in self-driving cars, or more generally, autonomous vehicles, as vehicles that are able to recognize these road signs will be able to gain important information about the road up ahead, for example it may tell it to stick to a particular speed limit, or be extra wary of cars from certain directions.
+<b>Motivation</b> - To display my interest in image recognition, especially for practical applications, using realistic data. This project's application of Computer Vision is also tied to machine learning in self-driving cars, or more generally, autonomous vehicles, as vehicles that are able to recognize these road signs will be able to gain important information about the road up ahead, for example it may tell the car to stick to a particular speed limit, or be extra wary of vehicles coming from certain directions.
 
 A focus of this project is to create a versatile classifier, using a CNN, with the ability to accurately recognize and predict types of traffic signs from small images in low lighting (at night, obscured in shadow) and low quality (blurred, low resolution).
 Then I perform visual comparison of different models with various filter dimensions on training and validation sets to determine the best model.
