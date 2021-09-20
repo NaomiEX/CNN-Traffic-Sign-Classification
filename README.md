@@ -18,7 +18,7 @@ The dataset used for this project was obtained from a [popular Kaggle dataset fo
 The dataset consists of:
 * 86,989 (~87,000) images in the training set
 * 12,630 images in the test set
-* ratio of training:test size is 87%
+* ratio of training:test size is 87:1
 * Images are of size 32x32
 * 43 different types of traffic signs
 
@@ -28,7 +28,7 @@ Notice that many of the images displaying the traffic signs are blurry, partiall
 
 ## Results
 ### Training and Validation Accuracy comparison between different models
-From this we can observe that after 10 epochs, most of the models achieved near perfect accuracy for the training set images and there is a relatively small difference in performance between all the various models, whereas we see a more pronounced difference in their validation accuracies. Importantly, we can observe that the model with the **5x5 filter**, attained the highest Training Accuracy (99.08%) as well as the highest Validation Accuracy (86.10%) at the end of 10 epochs. 
+From this we can observe that after 10 epochs, most of the models achieved near perfect accuracy for the training set images (>= 96% accuracy) and there is a relatively small difference in performance between all the various models, whereas we see a more pronounced difference in their validation accuracies. Importantly, we can observe that the model with the **5x5 filter**, attained the highest Training Accuracy (99.08%) as well as the highest Validation Accuracy (86.10%) at the end of 10 epochs. 
 
 *Note that the 3x3 filter obtained the second highest Training Accuracy (99.04%) and, at one point, between 3 and 5 epochs, achieved the highest Validation Accuracy between all models, though other models overtook it from this point.*
 
