@@ -4,7 +4,6 @@ Traffic Sign Classification using CNN
 ## Table of contents
 * [Introduction](#introduction)
 * [Dataset](#dataset)
-* [Kaggle Placement](#kaggle-results)
 * [Results](#results)
 * [Libraries](#libraries)
 
@@ -16,11 +15,12 @@ Visual comparison of different models with various filter dimensions on training
 
 ## Dataset
 The dataset used for this project was obtained from a [popular Kaggle dataset for the German Traffic Sign Recognition Benchmark (GTSRB) challenge](https://www.kaggle.com/meowmeowmeowmeowmeow/gtsrb-german-traffic-sign) 
-
-## Kaggle Results
-With the model built from the Random Forest Classifier, I **won the Kaggle competition with 172 participating teams**.
-[Full leaderboard](https://www.kaggle.com/c/mum-fit1043-s1-2021/leaderboard)
-![Leaderboard](./Results/kaggle_results.JPG)
+The dataset consists of:
+* 86,989 (~87,000) images in the training set
+* 12,630 images in the test set
+* ratio of training:test size is 87%
+* Images are of size 32x32
+* 43 different types of traffic signs
 
 ## Results
 ### SVM model (Confusion Matrix)
@@ -37,7 +37,8 @@ Note: Much better QWK score in comparison to the SVM model!
 
 
 ## Libraries
-* scikit-learn (sklearn)
-* imbalanced-learn (imblearn)
+* tensorflow
+* keras
 * pandas
 * numpy
+* matplotlib
