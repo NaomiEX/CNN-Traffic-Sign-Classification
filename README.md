@@ -26,6 +26,12 @@ The dataset consists of:
 Notice that many of the images displaying the traffic signs are blurry, partially obscured, and dimly-lit. These features permeate through the many images in this dataset and is the main reason I chose this particular dataset - it is very realistic and thus the resulting model trained on this data is very applicable in real-world scenarios.
 ![Visualization of training set](./Images/training_set_visualization.JPG)
 
+## Model
+I experimented with models of various complexity and found that I achieved the best results (most generalize-able classifier) with one of the simplest models. Its architecture is as follows:
+* A single convolutional layer
+* A single max pooling layer
+* Two dense layers
+
 ## Results
 ### Training and Validation Accuracy comparison between different models
 From this we can observe that after 10 epochs, most of the models achieved near perfect accuracy for the training set images (>= 96% accuracy) and there is a relatively small difference in performance between all the various models, whereas we see a more pronounced difference in their validation accuracies. Importantly, we can observe that the model with the **5x5 filter**, attained the highest Training Accuracy (99.08%) as well as the highest Validation Accuracy (86.10%) at the end of 10 epochs. 
