@@ -38,13 +38,12 @@ From this we can observe that after 10 epochs, most of the models achieved near 
 
 *Note that the 3x3 filter obtained the second highest Training Accuracy (99.04%) and, at one point, between 3 and 5 epochs, achieved the highest Validation Accuracy between all models, though other models overtook it from this point.*
 
-The predictions below are from this best model (5x5 filter)
 <img src="./Images/model_comparison_train_validation.JPG" width="800"/>
 
 ### Predictions with Best Model (images from test set)
-The following shows the predicted label by the best model (chosen from the comparison above), as well as the true label below it. As you can see, the predictions are all correct for this set of images! This result matches the high accuracy that was observed for the training and validation sets (see above graph)
-![Test predictions](./Images/test_predictions.JPG)
+The following shows some of the predicted label by the best model (5x5 filter, chosen from the accuracy comparison above), as well as the true label below it. As you can see, the predictions are all correct for this set of images! This result matches the high accuracy that was observed for the training and validation sets (see above graph)
 
+![Test predictions](./Images/test_predictions.JPG)
 
 ## Libraries
 * tensorflow
